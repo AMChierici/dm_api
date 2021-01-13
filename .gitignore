@@ -1,6 +1,7 @@
 # Folders
 data/
 mlruns/
+faiss_indices/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
