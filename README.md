@@ -1,5 +1,10 @@
 # dm_api - Dialogue Manager for TOIA++
 
-Create a folder named `data`.
+For making the Flask app working, create a folder named *faiss_indices*:
+```mkdir faiss_indeces```
 
-Download [this](https://drive.google.com/file/d/1idVigG9Sm8KnXZa8Fc3IzP674P1ZCcf4/view?usp=sharing) file and save it in `data`.
+Download the file `margarita.pkl` [here](https://drive.google.com/file/d/1DRuv2YYo8RUyN0HSi3Syrg_0kKl7aVZ3/view?usp=sharing) file and save it in *faiss_indices*.
+
+If you want to use the notebook, you need to create a folder named *data*,
+```mkdir data```,
+and save in there the files `MargaritaCorpusKB_video_id.csv` and `DIALOGUES.csv` avaible [here](https://drive.google.com/drive/folders/1KfPgHZ5NXjKPYAZToYExL6e8DHAxPfC8?usp=sharing).
