@@ -37,8 +37,11 @@ def dialogue_manager():
             return_embedding=False
         )
         answer = response[0].meta['answer']
+        id_video = response[0].meta['id_video']
         result = {
-            'result': answer,
+            'answer': answer,
+            'id_video': id_video
+
         }
         json.dumps(result)
         return result
