@@ -48,6 +48,8 @@ httptools==0.1.1
 idna==2.10
 importlib-metadata==3.4.0
 ipykernel==5.4.3
+ipython==7.19.0
+ipython-genutils==0.2.0
 itsdangerous==1.1.0
 jedi==0.18.0
 Jinja2==2.11.2
@@ -78,7 +80,7 @@ nltk==3.5
 notebook==6.1.6
 numpy==1.19.5
 packaging==20.8
-pandas
+pandas==1.2.0
 pandocfilters==1.4.3
 parso==0.8.1
 pexpect==4.8.0
@@ -112,7 +114,7 @@ requests==2.25.1
 s3transfer==0.3.4
 sacremoses==0.0.43
 scikit-learn==0.24.0
-scipy
+scipy==1.6.0
 Send2Trash==1.5.0
 sentencepiece==0.1.95
 seqeval==0.0.12
@@ -136,7 +138,7 @@ torch==1.6.0
 tornado==6.1
 tox==3.21.0
 tqdm==4.56.0
-traitlets
+traitlets==5.0.5
 transformers==3.3.1
 troposphere==2.6.3
 typing-extensions==3.7.4.3
