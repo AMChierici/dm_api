@@ -11,3 +11,6 @@ If you want to use the notebook, you need to create a folder named *data*,
 ```mkdir data```,
 
 and save in there the files `MargaritaCorpusKB_video_id.csv` and `DIALOGUES.csv` avaible <a href="https://drive.google.com/drive/folders/1KfPgHZ5NXjKPYAZToYExL6e8DHAxPfC8?usp=sharing" target="_blank" rel="noopener noreferrer">here</a>.
+
+### Aknoledgments ###
+Thanks to [Haystack](https://haystack.deepset.ai/). My code was inspired from [Tutorial 4](https://haystack.deepset.ai/docs/latest/tutorial4md).
