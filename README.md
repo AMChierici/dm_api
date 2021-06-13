@@ -4,9 +4,11 @@ For making the Flask app working, create a folder named *faiss_indices*:
 
 ```mkdir faiss_indeces```
 
-Download the file `margarita.pkl` <a href="https://drive.google.com/file/d/1DRuv2YYo8RUyN0HSi3Syrg_0kKl7aVZ3/view?usp=sharing" target="_blank" rel="noopener noreferrer">here</a> file and save it in *faiss_indices*.
+You need to install PostgreSQL and make sure SQLAlchemy-Utils is version 0.36.7 as per the requirements.txt.
 
-If you want to use the notebook, you need to create a folder named *data*,
+To update the db for including Margarita's avatar, run the first part of the notebook (until "Dialogue Mgr can stop here"). Make sure to use the Margarita avatar id as the db dame!
+
+If you want to use the rest of the notebook, you need to create a folder named *data*,
 
 ```mkdir data```,
 
